@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/Application.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/ApiController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/ApiHeaders.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/AppExceptionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/CategoryController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/CategoryResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/DefaultController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/ErrorResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/RecordResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/SubcategoryController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/SubcategoryResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/controller/UserResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/Category.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/Domain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/Record.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/Role.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/Subcategory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/domain/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/repository/CategoryRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/repository/ErrorInfoRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/repository/SubcategoryRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/CategoryService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/CategoryServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/ErrorInfoService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/ErrorInfoServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/SubcategoryService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/demo/service/SubcategoryServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/database/data-hsqldb.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/database/data-mysql.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/messages/messages.properties" charset="UTF-8" />
+  </component>
+</project>

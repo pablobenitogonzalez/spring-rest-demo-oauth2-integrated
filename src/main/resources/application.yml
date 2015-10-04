@@ -1,0 +1,66 @@
+spring:
+   application:
+    name: spring-rest-demo-oauth2-integrated
+   jackson:
+    date-format: dd-MM-yyyy HH:mm:ss.SSS
+   profiles:
+    active: test
+
+---
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: jetty
+    key-store: classpath:private/jetty-keystore.p12
+    key-store-password: password
+    key-store-type: PKCS12
+
+---
+
+endpoints:
+  shutdown:
+    enabled: true
+
+---
+
+spring:
+  profiles: development
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: pablo-1
+    platform: mysql
+    data: classpath:database/data-mysql.sql
+    initialize: true
+    sql-script-encoding: UTF-8
+  jpa:
+    open-in-view: true
+    show-sql: true
+    hibernate:
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.MySQLDialect
+
+---
+
+spring:
+  profiles: test
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:demo
+    username: sa
+    password:
+    platform: hsqldb
+    data: classpath:database/data-hsqldb.sql
+    initialize: true
+    sql-script-encoding: UTF-8
+  jpa:
+    open-in-view: true
+    show-sql: true
+    hibernate:
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.HSQLDialect
